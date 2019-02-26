@@ -1,0 +1,22 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'dashboard/css/navbar.css' %}">
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="{% static 'dashboard/navbar.png' %}" width="30" height="30" class="d-inline-block align-top navbar-icon" alt="">
+      Analytics
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <button class="btn btn-outline-light my-2 my-sm-0" href="#"><i class="fa fa-github"></i> &nbsp; Sign in </button>
+          </li>
+        </ul>
+      </div>
+  </div>
+</nav>
