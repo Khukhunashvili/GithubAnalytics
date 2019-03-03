@@ -10,11 +10,10 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item">
-            <button class="btn btn-success my-2 my-sm-0" href="#"><i class="fa fa-github"></i> &nbsp; Sign in </button>
+            <a href="{% url 'social:begin' 'github' %}" class="btn btn-success my-2 my-sm-0" href="#"><i class="fa fa-github"></i> &nbsp; Sign in </a>
           </li>
         </ul>
       </div>
