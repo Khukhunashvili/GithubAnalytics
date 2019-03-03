@@ -2,11 +2,11 @@ body {
   width: 100%;
   height: 100vh;
   background-color: #F6F8FA;
+  margin-bottom: 40px;
 }
 
 .intro {
   width: 100%;
-  min-height: 65%;
   background: url("/static/dashboard/simple-codelines.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,7 @@ body {
 }
 
 .intro .intro-wrapper {
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 .intro .intro-wrapper h4 {
@@ -32,4 +32,29 @@ body {
   display: block;
   margin: 0 auto;
   height: 50px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.section-title {
+  padding: 40px 0;
+  font-weight: bold;
+}
+
+.features .card {
+  width: 90%;
+  margin: 10px auto;
+  padding: 25px 0 0 0;
+  border-left: 5px solid #38454F;
+  color: rgba(0, 0, 0, 0.8);
+  transition: 0.25s;
+}
+
+.features .card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.card .fa {
+  color: #38454F;
 }
