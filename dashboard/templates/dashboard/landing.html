@@ -1,2 +1,17 @@
 {% extends "dashboard/main.html" %}
 {% block title %} Github Analytics {% endblock %}
+{% load static %}
+{% block head %}
+  <link rel="stylesheet" href="{% static 'dashboard/css/landing.css' %}">
+{% endblock %}
+
+{% block body %}
+  <div class="intro text-center">
+    <div class="container intro-wrapper">
+      <h1> Github Follower Tracker <i class="fa fa-user"></i> </h1>
+      <h4> A simple Github Manager tool that find out users <br> who do not follow you back on Github.</h4>
+      <img class="img img-responsive" src="{% static 'dashboard/analytics.svg' %}">
+      <button class="btn btn-outline-light" href="#"><i class="fa fa-github"></i> &nbsp; Sign in </button>
+    </div>
+  </div>
+{% endblock %}

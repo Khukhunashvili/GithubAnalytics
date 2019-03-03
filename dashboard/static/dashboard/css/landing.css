@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #F6F8FA;
+}
+
+.intro {
+  width: 100%;
+  min-height: 65%;
+  background: url("/static/dashboard/simple-codelines.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2B3137;
+  color: white;
+}
+
+.intro .intro-wrapper {
+  padding: 50px 0;
+}
+
+.intro .intro-wrapper h4 {
+  color: rgba(255, 255 ,255, 0.5);
+  margin-top: 15px;
+}
+
+.intro img {
+  width: 250px;
+}
+
+.intro button {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+}
