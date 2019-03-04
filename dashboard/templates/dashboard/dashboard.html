@@ -1,0 +1,15 @@
+{% extends "dashboard/main.html" %}
+{% block title %} Github Analytics {% endblock %}
+{% load static %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'dashboard/css/dashboard.css' %}">
+{% endblock %}
+
+{% block body %}
+<!-- <img src="https://github.com/{{ user.username }}.png"> -->
+<div class="container details text-center">
+  <img src="https://github.com/{{ user.username }}.png" class="profile-pic">
+  <h2 class="username"> {{ user.username }} </h2>
+</div>
+{% endblock %}

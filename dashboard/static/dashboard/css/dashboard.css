@@ -1,0 +1,16 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.details {
+  margin-top: 25px;
+}
+
+.profile-pic {
+  width: 175px;
+  margin: 15px auto;
+}
+
+.username {
+  font-weight: bold;
+}
