@@ -3,7 +3,7 @@ body {
 }
 
 .details {
-  margin-top: 25px;
+  margin: 35px auto;
 }
 
 .profile-pic {
@@ -13,4 +13,29 @@ body {
 
 .username {
   font-weight: bold;
+  margin-top: 15px;
+}
+
+.card-header button {
+  font-weight: bold;
+  background: #F7F7F7;
+}
+
+.anal-img {
+  width: 64px;
+  height: 64px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.anal-username {
+  display: inline-block;
+}
+
+.fa-github {
+  color: black;
+}
+.fa-github:hover {
+  color: black;
+  text-decoration: none;
 }

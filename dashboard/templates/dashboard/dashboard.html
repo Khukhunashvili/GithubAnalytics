@@ -7,9 +7,38 @@
 {% endblock %}
 
 {% block body %}
-<!-- <img src="https://github.com/{{ user.username }}.png"> -->
 <div class="container details text-center">
-  <img src="https://github.com/{{ user.username }}.png" class="profile-pic">
+  <img src="https://github.com/khukhunashvili.png" class="profile-pic">
   <h2 class="username"> {{ user.username }} </h2>
+</div>
+<div class="container">
+  <div class="accordion">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="mb-0">
+          <button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Followers &nbsp;<span class="badge badge-danger">9</span>
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#followerData">
+        <div class="card-body">
+          <table class="table table-hover">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="https://github.com/{{ user.username }}.png" class="anal-img">
+                  <h4 class="anal-username"> {{ user.username }} </h4>
+                <td class="align-middle">
+                  <a href="https://github.com/{{ user.username }}" class="fa fa-2x fa-github"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {% endblock %}
