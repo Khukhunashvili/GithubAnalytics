@@ -11,7 +11,7 @@
       <h1> Github Follower Tracker <i class="fa fa-user"></i> </h1>
       <h4> A simple Github Manager tool that find out users <br> who do not follow you back on Github.</h4>
       <img class="img img-responsive" src="{% static 'dashboard/analytics.svg' %}">
-      <button class="btn btn-outline-light" href="#">
+      <button onclick="location.href = '{% url 'social:begin' 'github' %}';" class="btn btn-outline-light">
         <i class="fa fa-github"></i> &nbsp;
         Sign in
       </button>
