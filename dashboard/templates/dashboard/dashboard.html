@@ -30,10 +30,10 @@
               {% for githubUser in list %}
               <tr>
                 <td>
-                  <img src="https://github.com/{{ githubUser.username }}.png" class="anal-img">
-                  <h4 class="anal-username"> {{ githubUser.username }} </h4>
+                  <img src="https://github.com/{{ githubUser.login }}.png" class="anal-img">
+                  <h4 class="anal-username"> {{ githubUser.login }} </h4>
                 <td class="align-middle">
-                  <a href="https://github.com/{{ githubUser.username }}" class="fa fa-2x fa-github"></a>
+                  <a href="https://github.com/{{ githubUser.login }}" class="fa fa-2x fa-github"></a>
                 </td>
               </tr>
               {% endfor %}
